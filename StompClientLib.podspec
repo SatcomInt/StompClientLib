@@ -26,9 +26,10 @@ Simple STOMP Client library, Swift 3, 4, 4.2, 5 compatible. STOMP Protocol let t
   # s.screenshots    = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'FreakyCoder' => 'kurayogun@gmail.com' }
-  s.source           = { :git => 'https://github.com/wrathchaos/StompClientLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SatcomInt/StompClientLib.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/freakycodercom'
-
+  
+  s.platform     = :tvos
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'StompClientLib/Classes/**/*'
